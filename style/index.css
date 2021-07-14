@@ -36,7 +36,81 @@
   }
 }
 
+/*---------General------------*/
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--clr-clr);
+  color: var(--clr-drk);
+  margin: 0;
+  font-family: var(--ff-primary);
+  font-size: var(--fs-body);
+  line-height: 1;
+}
+
+section {
+  padding: 5em 2em;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+strong {
+  font-weight: var(--fw-bold);
+}
+
+:focus {
+  outline: 3px solid var(--clr-accent);
+  outline-offset: 3px;
+}
+
+/*---------Typography---------*/
+
+h1, h2, h3{
+  font-family: var(--ff-mh);
+  letter-spacing: 5px;
+  line-height: 1.1;
+  margin: 0;
+}
+
+p {
+  font-family: var(--ff-primary);
+}
+
 /* ------NAV-------*/
+
+header {
+  display:flex;
+  justify-content: space-between;
+  padding: 1em;
+}
+
+.logo{
+
+}
+
+
+.nav_list {
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.nav-item {
+  padding: 1em;
+
+}
+
+.nav_link {
+  text-decoration: none;
+}
+
+
 
 /*------Intro--------*/
 
